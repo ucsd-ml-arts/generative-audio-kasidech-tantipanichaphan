@@ -40,8 +40,11 @@ And the extracted wave can be viewed in the input folder in each of the songs fo
 The code files is in this github. 
 
 Names:
+
 Choral_Orchestral_ECE188_project_2.ipynb
+
 Improvisation_ECE188_project_2.ipynb
+
 Wave2mid_ECE_188_Project_2.ipynb
 
 The code should be run on the collab links that I created.
