@@ -5,6 +5,7 @@ Kasidech Tantipanichaphan, ktantipa@ucsd.edu
 (Your teammate's contact info, if appropriate)
 
 <img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Cover_Album.png" width="60%">
+
 ## Abstract
 
 In the history of music, there were many great composers in the past who were unable to finish their musical pieces. Some of them have suffered from their health or mental condition,  which makes them pass away before they even finish their pieces. In this project, I wanted help finishing their composition by using an artificial intelligence programme, which in this case is the machine learning components that we've come across in this class. The main goal of this project is to complete a fragment of their piano composition, as well as making a better piece by manipulating the sound, by using Wave2mid, GANSynth, Music Transformer/RNN performance, and Garageband Software tools/method. So that, the fans of those artists have a chance to hear a new piece by these great composers in the past. The inspiration behind this project is that some of the pianists have died before they are able to finish composing their great pieces.  For example, Puccini, one of the great composers that I’ve selected, suffered from cancer in 1924 and he’d never been the same. Subsequently, he’s undertaking the surgery that ultimately causes his death. As a result, his operatic masterpiece called Turandot, was left unfinished. 
@@ -62,6 +63,7 @@ The following ran on google collabs. The links are provided below:
 
 Gansyth Portion: 
 https://colab.research.google.com/drive/1mMBZjV1KNRwy3s12Utqt63kCS7NwNLES
+
 Accompaniment and continuation generation portion:
 https://colab.research.google.com/drive/1MT0u1SwV3JNd8S-AOCqMiKatYlgZzURI 
 
@@ -73,21 +75,21 @@ In this part, I use the Music Transformer model. According to the creator of thi
 First, I just run the environmental setup as well as the piano performance language model. Then, I selected a portion of the songs in order to build off and make the improvisation. Usually the max primer seconds is around 7-10 generated the best results for my case. The code can be examined through the github. Basically, the code just takes out all the irrelevant sounds except for the piano magenta.
 	Here is one example of the generated result for Turadot:
 
-<img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Turandot_1.png" width="60%">
+<img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Turandot_1.png" width="45%">
 
 As mentioned in the abstract, there is music that also contains monophonic music. In this part, I basically generate the accompaniment of the piece that has only the melody. As the music of my pick. I chose TAPS (Butterfield’s Lullaby) as the music to generate. This part is generated first, before generating the continuation to build off the accompaniment part.
 
 Let’s quickly examine the original input in the magenta form (by using mm.plot_sequence):
 
-<img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Butterfield_1.png" width="60%">
+<img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Butterfield_1.png" width="50%">
 
 As we can see, this is the whole piece for Butterfield's Lullaby. It seems very simple and has no complexity. Subsequently, I just generated the Melody-conditioned transformer model to generate the accompaniment. And this is the result after it is generated:
 
-<img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Butterfield_2.png" width="60%">
+<img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Butterfield_2.png" width="50%">
 
 Finally, repeat the process of continuation or the improvisation.
 
-<img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Butterfield_4.png" width="60%">
+<img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Butterfield_4.png" width="50%">
 
 As we can see, the piece looks more completed this time.
 
