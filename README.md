@@ -111,7 +111,7 @@ And another is the CQT Spectrogram result for the Tudorat.
 
 The garageband is basically the last step where I gather everything together, and also to produce the music that has more detail such as creating crescendo, ascendo, or sustain.  This includes the original input as well as the Generated output using the Music transformer.  Little of the part that I decided to adjust the tempo in order to make it sound not awkward. But most of the part seems to conform to what is needed.
 
-<img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Garageband.png" width="65%">
+<img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Garageband.png" width="50%">
 
 ## Reference
 
