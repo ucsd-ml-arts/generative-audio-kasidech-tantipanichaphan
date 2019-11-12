@@ -37,7 +37,7 @@ https://colab.research.google.com/drive/1OsN9bfXUESwQC_RtxLgVZKyHaJ3Mdmda
 And the extracted wave can be viewed in the input folder in each of the songs folder in the github. 
 
 ## Code
-The code files is in this github. 
+The code files are in this github. 
 
 Names:
 
