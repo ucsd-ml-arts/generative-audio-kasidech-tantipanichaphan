@@ -86,7 +86,7 @@ Let’s quickly examine the original input in the magenta form (by using mm.plot
 
 <img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Butterfield_1.png" width="50%">
 
-As we can see, this is the whole piece for Butterfield's Lullaby. It seems very simple and has no complexity. Subsequently, play with the parameters and use the Melody-conditioned transformer model to generate the accompaniment. And this is the result after it is generated:
+As we can see, this is the whole piece for Butterfield's Lullaby. It seems very simple and has no complexity. Subsequently, I play with the parameters and use the Melody-conditioned transformer model to generate the accompaniment. And this is the result after it is generated:
 
 <img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Butterfield_2.png" width="50%">
 
