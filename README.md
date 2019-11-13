@@ -86,7 +86,7 @@ Let’s quickly examine the original input in the magenta form (by using mm.plot
 
 <img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Butterfield_1.png" width="50%">
 
-As we can see, this is the whole piece for Butterfield's Lullaby. It seems very simple and has no complexity. Subsequently, I just generated the Melody-conditioned transformer model to generate the accompaniment. And this is the result after it is generated:
+As we can see, this is the whole piece for Butterfield's Lullaby. It seems very simple and has no complexity. Subsequently, play with the parameters and use the Melody-conditioned transformer model to generate the accompaniment. And this is the result after it is generated:
 
 <img src="https://github.com/ucsd-ml-arts/generative-audio-kasidech-tantipanichaphan/blob/master/Images/Butterfield_2.png" width="50%">
 
@@ -100,7 +100,7 @@ As we can see, the piece looks more completed this time.
 
 To get in touch with the GANSynth techniques, I decided to pick Toradot and Dies Irae Requiem to produce the Choral Symphony version. I realized that GANSynth would produce this part of music that I needed.
 
-There are 4 samples/instruments that I choose to generate for the interpolation. The first sounded like vocal, the second one sounded like trumpet, the third one sounded like string, and the last one sounded like a woodwind instrument. This can be found in the sample sound files. After that I have to set a list of instruments to interpolate. As an example, the list of instruments to interpolate is between [1, 2, 1, 2], and the relative time is [0, 0.3, 0.6, 1.0].  These instruments can be listen through the Github files that I shared.
+There are 4 samples/instruments that I choose to generate for the interpolation. The first sounded like vocal, the second one sounded like trumpet, the third one sounded like string, and the last one sounded like a woodwind instrument. This can be found in the sample sound files. After that I have to set a list of instruments to interpolate. As an example, the list of instruments to interpolate is between [1, 2, 1, 2] for the Requiem, and the relative time is [0, 0.3, 0.6, 1.0].  These instruments can be listen through the Github files that I shared.
 
 Below is the CQT Spectrogram result that I got for the Requiem.
 
